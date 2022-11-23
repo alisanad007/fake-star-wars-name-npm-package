@@ -1,0 +1,23 @@
+{
+  "name": "@ali-sanad/fake-star-wars-name",
+  "version": "1.0.0",
+  "description": "Generate a Fake Star Wars character's Name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisanad007/fake-star-wars-name-npm-package.git"
+  },
+  "keywords": [
+    "starwars"
+  ],
+  "author": "Ali Sanad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisanad007/fake-star-wars-name-npm-package/issues"
+  },
+  "homepage": "https://github.com/alisanad007/fake-star-wars-name-npm-package#readme"
+}
