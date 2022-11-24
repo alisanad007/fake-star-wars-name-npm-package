@@ -1,6 +1,6 @@
 const {names} = require('./assets/names');
 
-const {generateRandomNumber} = require('./utils/helper');
+const {generateRandomNumber, NAMES_RECORD_LENGTH} = require('./utils/helper');
 
 const fakeStarWarsName = (nameParts = 2) => {
   if (nameParts > 5 || nameParts < 2) {
@@ -11,7 +11,7 @@ const fakeStarWarsName = (nameParts = 2) => {
   Array(nameParts)
     .fill('')
     .forEach(() => {
-      name += ` ${names[generateRandomNumber(178)]}`;
+      name += ` ${names[generateRandomNumber(NAMES_RECORD_LENGTH)]}`;
     });
 
   return name;
