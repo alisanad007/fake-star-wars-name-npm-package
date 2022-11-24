@@ -1,6 +1,6 @@
 {
   "name": "@ali-sanad/fake-star-wars-name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a Fake Star Wars character's Name",
   "main": "index.js",
   "scripts": {
